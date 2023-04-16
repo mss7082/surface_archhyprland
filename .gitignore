@@ -1,4 +1,12 @@
 BraveSoftware/
+Bitwarden*
+Ledger*
+QtProject.conf
+exercism/
+ghc/
+irust/
+qutebrowser/
+nushell/history.txt
 Thunar/
 btop/
 dconf/

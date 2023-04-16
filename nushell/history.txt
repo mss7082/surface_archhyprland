@@ -1,18 +1,2 @@
-sudo helix /etc/shells
-chsh -s /home/moses/.cargo/bin/nu moses
-chsh -s /home/moses/.cargo/bin/nu
-cat ~/.bashrc
-helix .config/nushell/config.nu
-ll
-helix .config/nushell/config.nu
-source .config/nushell/config.nu
-hx
-mkdir .ssh;cd .ssh
-ll
-chmod 600 id_rsa
-cd
-cd .config/
-git init
-git status
-cd .config/
+llhx nushell/history.txt
 git status
