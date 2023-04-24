@@ -536,8 +536,13 @@ let-env config = {
 }
 alias ll = ls
 alias hx = helix
+
 let-env PATH = ($env.PATH | prepend '~/.cargo/bin')
 let-env PATH = ($env.PATH | prepend '~/.ghcup/bin')
 let-env PATH = ($env.PATH | prepend '~/.cabal/bin/')
 let-env PATH = ($env.PATH | prepend '~/bin/')
 let-env PATH = ($env.PATH | prepend '/home/moses/.aiken/bin')
+let-env PATH = ($env.PATH | prepend '/home/moses/.local/bin')
+
+let-env EDITOR = helix
+
